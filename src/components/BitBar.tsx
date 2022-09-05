@@ -10,10 +10,10 @@ const BitBar = () => {
   ];
 
   return (
-    <div className="flex overflow-x-scroll hide-scroll-bar">
+    <div className="w-1/2 flex flex-row overflow-x-scroll no-scrollbar">
       <div className="flex flex-nowrap space-x-4">
         {images.map((image, ind) => (
-          <div className="card card-compact w-48 h-48 bg-base-100 shadow-xl overflow-hidden">
+          <div className="card card-compact w-48 h-48 bg-base-300">
             <figure>
               <Image
                 src={`/images/${image}.png`}

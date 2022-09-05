@@ -14,7 +14,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
   const { asPath } = useRouter();
 
   return (
-    <div className="min-h-screen p-3" data-theme="dracula">
+    <div className="min-h-screen p-3" data-theme="business">
       <Navbar />
       <Component {...pageProps} />
     </div>
